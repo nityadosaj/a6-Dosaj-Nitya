@@ -19,6 +19,7 @@ function Home() {
     fetchData();
   }, [setAppState]);
 
+  //Site URL: https://practical-lewin-db729e.netlify.app
   return (
       <Posts isLoading={appState.loading} posts={appState.posts}/>
   );
